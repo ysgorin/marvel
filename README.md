@@ -25,4 +25,4 @@ Technologies used in this project:
 * Flask
 
 ## Attribution
-Data was collected from OMDb API, The Open Movie Database at https://www.omdbapi.com/.
+Data was collected from OMDb API, The Open Movie Database at https://www.omdbapi.com/ and from Rotten Tomatoes at https://www.rottentomatoes.com/.
