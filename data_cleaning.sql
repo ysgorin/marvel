@@ -68,3 +68,52 @@ FROM mcu
 UNION ALL
 SELECT *
 FROM dceu;
+
+-- Year
+-- Change 'Year' from VARCHAR to YEAR
+ALTER TABLE Movies
+ALTER COLUMN "Year" TYPE DATE
+USING to_date("Year", 'YYYY');
+
+-- Runtime
+-- Remove " min" from each value
+-- Change Runtime from VARCHAR to INT
+-- Add unit of measure to column header
+UPDATE Movies 
+SET "Runtime" = REPLACE("Runtime", ' min', '');
+
+ALTER TABLE Movies
+ALTER COLUMN "Runtime" TYPE INT
+USING "Runtime"::integer;
+
+ALTER TABLE Movies
+RENAME COLUMN "Runtime" TO "Runtime (min)";
+
+-- Rotten Tomatoes Rating
+-- Remove % sign from each value for data type conversion
+-- Change "Rotten Tomatoes Rating" from VARCHAR to INT
+-- Add % sign to column header
+
+UPDATE Movies
+SET "Rotten Tomatoes Rating" = REPLACE("Rotten Tomatoes Rating", '%', '');
+
+ALTER TABLE Movies
+ALTER COLUMN "Rotten Tomatoes Rating" TYPE INT
+USING "Rotten Tomatoes Rating"::integer;
+
+ALTER TABLE Movies
+RENAME COLUMN "Rotten Tomatoes Rating" to "Rotten Tomatoes Rating (%)";
+
+-- Box Office
+-- Remove $ sign and commas for data type conversion
+-- Change "Box Office" from VARCHAR to INT
+-- Add $ sign to column header
+UPDATE Movies
+SET "Box Office" = REPLACE(REPLACE("Box Office", '$', ''), ',', '');
+
+ALTER TABLE Movies
+ALTER COLUMN "Box Office" TYPE INT
+USING "Box Office"::integer;
+
+ALTER TABLE Movies
+RENAME COLUMN "Box Office" to "Box Office ($)";
