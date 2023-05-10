@@ -34,3 +34,17 @@ WHERE Title = 'The Suicide Squad';
 UPDATE dceu
 SET "Box Office" = '0'
 WHERE Title = 'Zack Snyder''s Justice League';
+
+-- Add a 'Franchise' column to each table to identify
+-- each movie's franchise.
+ALTER TABLE mcu
+ADD COLUMN Franchise VARCHAR(4);
+
+UPDATE mcu
+SET Franchise = 'MCU';
+
+ALTER TABLE dceu
+ADD COLUMN Franchise VARCHAR(4);
+
+UPDATE dceu
+SET Franchise = 'DCEU';
