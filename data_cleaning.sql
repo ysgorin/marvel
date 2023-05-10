@@ -117,3 +117,8 @@ USING "Box Office"::integer;
 
 ALTER TABLE Movies
 RENAME COLUMN "Box Office" to "Box Office ($)";
+
+-- View the cleaned final product table.
+SELECT *
+FROM Movies
+ORDER BY "Title" ASC;
