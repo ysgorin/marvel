@@ -48,3 +48,23 @@ ADD COLUMN Franchise VARCHAR(4);
 
 UPDATE dceu
 SET Franchise = 'DCEU';
+
+-- Combine the two tables into a new combined table.
+-- First create a new "Movies" table
+CREATE TABLE Movies(
+    "Title" VARCHAR NOT NULL,
+    "Year" VARCHAR NOT NULL,
+    "Runtime" VARCHAR NOT NULL,
+    "Rotten Tomatoes Rating" VARCHAR NOT NULL,
+    "Box Office" VARCHAR NOT NULL,
+    "Franchise" VARCHAR NOT NULL
+);
+
+-- Add the row from both tables into the newly created 
+-- table
+INSERT INTO Movies
+SELECT *
+FROM mcu
+UNION ALL
+SELECT *
+FROM dceu;
