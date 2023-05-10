@@ -16,6 +16,10 @@ SET "Rotten Tomatoes Rating" = '47%'
 WHERE Title = 'Ant-Man and the Wasp: Quantumania';
 
 -- Zack Snyder's Cut RT Rating
+-- The single quote string delimiter conflicts with the
+-- apostrophe in "Zack Snyder's", so an extra single
+-- quote is used to escape the apostrophe acting as the
+-- delimiter (this is the case for pgAdmin4).
 UPDATE dceu
 SET "Rotten Tomatoes Rating" = '71%'
 WHERE Title = 'Zack Snyder''s Justice League';
