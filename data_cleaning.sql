@@ -70,7 +70,7 @@ SELECT *
 FROM dceu;
 
 -- Year
--- Change 'Year' from VARCHAR to YEAR
+-- Change 'Year' from VARCHAR to INT
 ALTER TABLE Movies
 ALTER COLUMN "Year" TYPE INT
 USING "Year"::integer;
