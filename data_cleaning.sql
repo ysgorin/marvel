@@ -72,8 +72,8 @@ FROM dceu;
 -- Year
 -- Change 'Year' from VARCHAR to YEAR
 ALTER TABLE Movies
-ALTER COLUMN "Year" TYPE DATE
-USING to_date("Year", 'YYYY');
+ALTER COLUMN "Year" TYPE INT
+USING "Year"::integer;
 
 -- Runtime
 -- Remove " min" from each value
