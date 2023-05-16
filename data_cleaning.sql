@@ -38,16 +38,10 @@ WHERE Title = 'Zack Snyder''s Justice League';
 -- Add a 'Franchise' column to each table to identify
 -- each movie's franchise.
 ALTER TABLE mcu
-ADD COLUMN Franchise VARCHAR(4);
-
-UPDATE mcu
-SET Franchise = 'MCU';
+ADD COLUMN Franchise VARCHAR(4) DEFAULT 'MCU';
 
 ALTER TABLE dceu
-ADD COLUMN Franchise VARCHAR(4);
-
-UPDATE dceu
-SET Franchise = 'DCEU';
+ADD COLUMN Franchise VARCHAR(4) DEFAULT 'DCEU';
 
 -- Combine the two tables into a new combined table.
 -- First create a new "Movies" table
