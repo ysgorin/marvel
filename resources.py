@@ -13,4 +13,4 @@ mcu_movie_list = ['Iron Man', 'The Incredible Hulk', 'Iron Man 2', 'Thor',
 dceu_movie_list = ['Man of Steel', 'Batman v Superman: Dawn of Justice', 'Suicide Squad', 'Wonder Woman',
                    'Justice League', 'Aquaman', 'Shazam!', 'Birds of Prey', 'Wonder Woman 1984',
                    "Zack Snyder's Justice League", 'The Suicide Squad', 'Black Adam',
-                   'Shazam! Fury of the Gods', 'The Flash']
+                   'Shazam! Fury of the Gods']

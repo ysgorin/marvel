@@ -1,14 +1,14 @@
-Title,Year,Runtime,Rotten Tomatoes Rating,Box Office
-Man of Steel,2013,143 min,56%,"$291,045,518"
-Batman v Superman: Dawn of Justice,2016,151 min,29%,"$330,360,194"
-Suicide Squad,2016,123 min,26%,"$325,100,054"
-Wonder Woman,2017,141 min,93%,"$412,845,172"
-Justice League,2017,120 min,39%,"$229,024,295"
-Aquaman,2018,143 min,65%,"$335,104,314"
-Shazam!,2019,132 min,90%,"$140,480,049"
-Birds of Prey,2020,109 min,78%,"$84,172,791"
-Wonder Woman 1984,2020,151 min,58%,"$46,801,036"
-Zack Snyder's Justice League,2021,242 min,54/100,N/A
-The Suicide Squad,2021,132 min,72/100,"$55,817,425"
-Black Adam,2022,125 min,38%,"$168,152,111"
-Shazam! Fury of the Gods,2023,130 min,49%,"$57,474,575"
+Title,Year,Rated,Released,Runtime,Genre,Director,Writer,Actors,Rotten Tomatoes Rating,Metascore,IMDB Rating,Box Office
+Man of Steel,2013,PG-13,14 Jun 2013,143 min,"Action, Adventure, Sci-Fi",Zack Snyder,"David S. Goyer, Christopher Nolan, Jerry Siegel","Henry Cavill, Amy Adams, Michael Shannon",56%,55,7.1,"$291,045,518"
+Batman v Superman: Dawn of Justice,2016,PG-13,25 Mar 2016,151 min,"Action, Adventure, Sci-Fi",Zack Snyder,"Chris Terrio, David S. Goyer, Bob Kane","Ben Affleck, Henry Cavill, Amy Adams",29%,44,6.4,"$330,360,194"
+Suicide Squad,2016,PG-13,05 Aug 2016,123 min,"Action, Adventure, Fantasy",David Ayer,"David Ayer, John Ostrander","Will Smith, Jared Leto, Margot Robbie",26%,40,5.9,"$325,100,054"
+Wonder Woman,2017,PG-13,02 Jun 2017,141 min,"Action, Adventure, Fantasy",Patty Jenkins,"Allan Heinberg, Zack Snyder, Jason Fuchs","Gal Gadot, Chris Pine, Robin Wright",93%,76,7.4,"$412,845,172"
+Justice League,2017,PG-13,17 Nov 2017,120 min,"Action, Adventure, Fantasy",Zack Snyder,"Jerry Siegel, Joe Shuster, Chris Terrio","Ben Affleck, Gal Gadot, Jason Momoa",39%,45,6.1,"$229,024,295"
+Aquaman,2018,PG-13,21 Dec 2018,143 min,"Action, Adventure, Fantasy",James Wan,"David Leslie Johnson-McGoldrick, Will Beall, Geoff Johns","Jason Momoa, Amber Heard, Willem Dafoe",65%,55,6.8,"$335,104,314"
+Shazam!,2019,PG-13,05 Apr 2019,132 min,"Action, Adventure, Comedy",David F. Sandberg,"Henry Gayden, Darren Lemke, Bill Parker","Zachary Levi, Mark Strong, Asher Angel",90%,71,7.0,"$140,480,049"
+Birds of Prey,2020,R,07 Feb 2020,109 min,"Action, Comedy, Crime",Cathy Yan,"Christina Hodson, Paul Dini, Bruce Timm","Margot Robbie, Rosie Perez, Mary Elizabeth Winstead",79%,60,6.1,"$84,172,791"
+Wonder Woman 1984,2020,PG-13,25 Dec 2020,151 min,"Action, Adventure, Fantasy",Patty Jenkins,"Patty Jenkins, Geoff Johns, Dave Callaham","Gal Gadot, Chris Pine, Kristen Wiig",58%,60,5.4,"$46,801,036"
+Zack Snyder's Justice League,2021,R,18 Mar 2021,242 min,"Action, Adventure, Fantasy",Zack Snyder,"Jerry Siegel, Joe Shuster, Zack Snyder","Henry Cavill, Ben Affleck, Gal Gadot",54/100,54,8.0,N/A
+The Suicide Squad,2021,R,05 Aug 2021,132 min,"Action, Adventure, Comedy",James Gunn,James Gunn,"Margot Robbie, Idris Elba, John Cena",72/100,72,7.2,"$55,817,425"
+Black Adam,2022,PG-13,21 Oct 2022,125 min,"Action, Adventure, Fantasy",Jaume Collet-Serra,"Adam Sztykiel, Rory Haines, Sohrab Noshirvani","Dwayne Johnson, Aldis Hodge, Pierce Brosnan",38%,41,6.3,"$168,152,111"
+Shazam! Fury of the Gods,2023,PG-13,17 Mar 2023,130 min,"Action, Adventure, Comedy",David F. Sandberg,"Henry Gayden, Chris Morgan, Bill Parker","Zachary Levi, Asher Angel, Jack Dylan Grazer",49%,47,6.0,"$57,638,006"
