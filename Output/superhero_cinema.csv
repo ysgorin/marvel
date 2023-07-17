@@ -1,45 +1,47 @@
-Film ID,Title,Year,Runtime (min),Rotten Tomatoes Rating (%),Box Office ($),Franchise
-0,Ant-Man,2015,117,83,180202163,MCU
-1,Ant-Man and the Wasp,2018,118,87,216648740,MCU
-2,Ant-Man and the Wasp: Quantumania,2023,124,47,212557514,MCU
-3,Aquaman,2018,143,65,335104314,DCEU
-4,Avengers: Age of Ultron,2015,141,76,459005868,MCU
-5,Avengers: Endgame,2019,181,94,858373000,MCU
-6,Avengers: Infinity War,2018,149,85,678815482,MCU
-7,Batman v Superman: Dawn of Justice,2016,151,29,330360194,DCEU
-8,Birds of Prey,2020,109,78,84172791,DCEU
-9,Black Adam,2022,125,38,168152111,DCEU
-10,Black Panther,2018,134,96,700426566,MCU
-11,Black Panther: Wakanda Forever,2022,161,84,453829060,MCU
-12,Black Widow,2021,134,79,183651655,MCU
-13,Captain America: Civil War,2016,147,90,408084349,MCU
-14,Captain America: The First Avenger,2011,124,80,176654505,MCU
-15,Captain America: The Winter Soldier,2014,136,90,259766572,MCU
-16,Captain Marvel,2019,123,79,426829839,MCU
-17,Doctor Strange,2016,115,89,232641920,MCU
-18,Doctor Strange in the Multiverse of Madness,2022,126,74,411331607,MCU
-19,Eternals,2021,156,47,164870234,MCU
-20,Guardians of the Galaxy,2014,121,92,333718600,MCU
-21,Guardians of the Galaxy Vol. 2,2017,136,85,389813101,MCU
-22,Iron Man,2008,126,94,319034126,MCU
-23,Iron Man 2,2010,124,71,312433331,MCU
-24,Iron Man 3,2013,130,79,409013994,MCU
-25,Justice League,2017,120,39,229024295,DCEU
-26,Man of Steel,2013,143,56,291045518,DCEU
-27,Shang-Chi and the Legend of the Ten Rings,2021,132,91,224543292,MCU
-28,Shazam!,2019,132,90,140480049,DCEU
-29,Shazam! Fury of the Gods,2023,130,49,57474575,DCEU
-30,Spider-Man: Far from Home,2019,129,90,390532085,MCU
-31,Spider-Man: Homecoming,2017,133,92,334201140,MCU
-32,Spider-Man: No Way Home,2021,148,93,814115070,MCU
-33,Suicide Squad,2016,123,26,325100054,DCEU
-34,The Avengers,2012,143,91,623357910,MCU
-35,The Incredible Hulk,2008,112,67,134806913,MCU
-36,The Suicide Squad,2021,132,90,55817425,DCEU
-37,Thor,2011,115,77,181030624,MCU
-38,Thor: Love and Thunder,2022,118,63,343256830,MCU
-39,Thor: Ragnarok,2017,130,93,315058289,MCU
-40,Thor: The Dark World,2013,112,66,206362140,MCU
-41,Wonder Woman,2017,141,93,412845172,DCEU
-42,Wonder Woman 1984,2020,151,58,46801036,DCEU
-43,Zack Snyder's Justice League,2021,242,71,0,DCEU
+Film ID,Title,Year,Rated,Released,Runtime (min),Genre,Director,Writer,Actors,Rotten Tomatoes Rating (%),Metascore,IMDB Rating,Box Office ($),Franchise
+0,Ant-Man,2015,PG-13,2015-07-17,117,"Action, Comedy, Sci-Fi",Peyton Reed,"Edgar Wright, Joe Cornish, Adam McKay","Paul Rudd, Michael Douglas, Corey Stoll",83,64,7.3,180202163,MCU
+1,Ant-Man and the Wasp,2018,PG-13,2018-07-06,118,"Action, Adventure, Comedy",Peyton Reed,"Chris McKenna, Erik Sommers, Paul Rudd","Paul Rudd, Evangeline Lilly, Michael Peña",87,70,7.0,216648740,MCU
+2,Ant-Man and the Wasp: Quantumania,2023,PG-13,2023-02-17,124,"Action, Adventure, Comedy",Peyton Reed,"Jeff Loveness, Stan Lee, Larry Lieber","Paul Rudd, Evangeline Lilly, Michael Douglas",47,48,6.1,214496697,MCU
+3,Aquaman,2018,PG-13,2018-12-21,143,"Action, Adventure, Fantasy",James Wan,"David Leslie Johnson-McGoldrick, Will Beall, Geoff Johns","Jason Momoa, Amber Heard, Willem Dafoe",65,55,6.8,335104314,DCEU
+4,Avengers: Age of Ultron,2015,PG-13,2015-05-01,141,"Action, Adventure, Sci-Fi",Joss Whedon,"Joss Whedon, Stan Lee, Jack Kirby","Robert Downey Jr., Chris Evans, Mark Ruffalo",76,66,7.3,459005868,MCU
+5,Avengers: Endgame,2019,PG-13,2019-04-26,181,"Action, Adventure, Drama","Anthony Russo, Joe Russo","Christopher Markus, Stephen McFeely, Stan Lee","Robert Downey Jr., Chris Evans, Mark Ruffalo",94,78,8.4,858373000,MCU
+6,Avengers: Infinity War,2018,PG-13,2018-04-27,149,"Action, Adventure, Sci-Fi","Anthony Russo, Joe Russo","Christopher Markus, Stephen McFeely, Stan Lee","Robert Downey Jr., Chris Hemsworth, Mark Ruffalo",85,68,8.4,678815482,MCU
+7,Batman v Superman: Dawn of Justice,2016,PG-13,2016-03-25,151,"Action, Adventure, Sci-Fi",Zack Snyder,"Chris Terrio, David S. Goyer, Bob Kane","Ben Affleck, Henry Cavill, Amy Adams",29,44,6.4,330360194,DCEU
+8,Birds of Prey,2020,R,2020-02-07,109,"Action, Comedy, Crime",Cathy Yan,"Christina Hodson, Paul Dini, Bruce Timm","Margot Robbie, Rosie Perez, Mary Elizabeth Winstead",79,60,6.1,84172791,DCEU
+9,Black Adam,2022,PG-13,2022-10-21,125,"Action, Adventure, Fantasy",Jaume Collet-Serra,"Adam Sztykiel, Rory Haines, Sohrab Noshirvani","Dwayne Johnson, Aldis Hodge, Pierce Brosnan",38,41,6.3,168152111,DCEU
+10,Black Panther,2018,PG-13,2018-02-16,134,"Action, Adventure, Sci-Fi",Ryan Coogler,"Ryan Coogler, Joe Robert Cole, Stan Lee","Chadwick Boseman, Michael B. Jordan, Lupita Nyong'o",96,88,7.3,700426566,MCU
+11,Black Panther: Wakanda Forever,2022,PG-13,2022-11-11,161,"Action, Adventure, Drama",Ryan Coogler,"Ryan Coogler, Joe Robert Cole, Stan Lee","Letitia Wright, Lupita Nyong'o, Danai Gurira",84,67,6.7,453829060,MCU
+12,Black Widow,2021,PG-13,2021-07-09,134,"Action, Adventure, Sci-Fi",Cate Shortland,"Eric Pearson, Jac Schaeffer, Ned Benson","Scarlett Johansson, Florence Pugh, David Harbour",79,68,6.7,183651655,MCU
+13,Captain America: Civil War,2016,PG-13,2016-05-06,147,"Action, Sci-Fi","Anthony Russo, Joe Russo","Christopher Markus, Stephen McFeely, Joe Simon","Chris Evans, Robert Downey Jr., Scarlett Johansson",90,75,7.8,408084349,MCU
+14,Captain America: The First Avenger,2011,PG-13,2011-07-22,124,"Action, Adventure, Sci-Fi",Joe Johnston,"Christopher Markus, Stephen McFeely, Joe Simon","Chris Evans, Hugo Weaving, Samuel L. Jackson",80,66,6.9,176654505,MCU
+15,Captain America: The Winter Soldier,2014,PG-13,2014-04-04,136,"Action, Adventure, Sci-Fi","Anthony Russo, Joe Russo","Christopher Markus, Stephen McFeely, Joe Simon","Chris Evans, Samuel L. Jackson, Scarlett Johansson",90,70,7.8,259766572,MCU
+16,Captain Marvel,2019,PG-13,2019-03-08,123,"Action, Adventure, Sci-Fi","Anna Boden, Ryan Fleck","Anna Boden, Ryan Fleck, Geneva Robertson-Dworet","Brie Larson, Samuel L. Jackson, Ben Mendelsohn",79,64,6.8,426829839,MCU
+17,Doctor Strange,2016,PG-13,2016-11-04,115,"Action, Adventure, Fantasy",Scott Derrickson,"Jon Spaihts, Scott Derrickson, C. Robert Cargill","Benedict Cumberbatch, Chiwetel Ejiofor, Rachel McAdams",89,72,7.5,232641920,MCU
+18,Doctor Strange in the Multiverse of Madness,2022,PG-13,2022-05-06,126,"Action, Adventure, Fantasy",Sam Raimi,"Michael Waldron, Stan Lee, Steve Ditko","Benedict Cumberbatch, Elizabeth Olsen, Chiwetel Ejiofor",74,60,6.9,411331607,MCU
+19,Eternals,2021,PG-13,2021-11-05,156,"Action, Adventure, Fantasy",Chloé Zhao,"Chloé Zhao, Patrick Burleigh, Ryan Firpo","Gemma Chan, Richard Madden, Angelina Jolie",47,52,6.3,164870234,MCU
+20,Guardians of the Galaxy,2014,PG-13,2014-08-01,121,"Action, Adventure, Comedy",James Gunn,"James Gunn, Nicole Perlman, Dan Abnett","Chris Pratt, Vin Diesel, Bradley Cooper",92,76,8.0,333718600,MCU
+21,Guardians of the Galaxy Vol. 2,2017,PG-13,2017-05-05,136,"Action, Adventure, Comedy",James Gunn,"James Gunn, Dan Abnett, Andy Lanning","Chris Pratt, Zoe Saldana, Dave Bautista",85,67,7.6,389813101,MCU
+22,Guardians of the Galaxy Vol. 3,2023,PG-13,2023-05-05,150,"Action, Adventure, Comedy",James Gunn,James Gunn,"Chris Pratt, Chukwudi Iwuji, Bradley Cooper",81,64,8.2,345110355,MCU
+23,Iron Man,2008,PG-13,2008-05-02,126,"Action, Adventure, Sci-Fi",Jon Favreau,"Mark Fergus, Hawk Ostby, Art Marcum","Robert Downey Jr., Gwyneth Paltrow, Terrence Howard",94,79,7.9,319034126,MCU
+24,Iron Man 2,2010,PG-13,2010-05-07,124,"Action, Sci-Fi",Jon Favreau,"Justin Theroux, Stan Lee, Don Heck","Robert Downey Jr., Mickey Rourke, Gwyneth Paltrow",71,57,6.9,312433331,MCU
+25,Iron Man 3,2013,PG-13,2013-05-03,130,"Action, Adventure, Sci-Fi",Shane Black,"Drew Pearce, Shane Black, Stan Lee","Robert Downey Jr., Guy Pearce, Gwyneth Paltrow",79,62,7.1,409013994,MCU
+26,Justice League,2017,PG-13,2017-11-17,120,"Action, Adventure, Fantasy",Zack Snyder,"Jerry Siegel, Joe Shuster, Chris Terrio","Ben Affleck, Gal Gadot, Jason Momoa",39,45,6.1,229024295,DCEU
+27,Man of Steel,2013,PG-13,2013-06-14,143,"Action, Adventure, Sci-Fi",Zack Snyder,"David S. Goyer, Christopher Nolan, Jerry Siegel","Henry Cavill, Amy Adams, Michael Shannon",56,55,7.1,291045518,DCEU
+28,Shang-Chi and the Legend of the Ten Rings,2021,PG-13,2021-09-03,132,"Action, Adventure, Fantasy",Destin Daniel Cretton,"Dave Callaham, Destin Daniel Cretton, Andrew Lanham","Simu Liu, Awkwafina, Tony Leung Chiu-wai",91,71,7.4,224543292,MCU
+29,Shazam!,2019,PG-13,2019-04-05,132,"Action, Adventure, Comedy",David F. Sandberg,"Henry Gayden, Darren Lemke, Bill Parker","Zachary Levi, Mark Strong, Asher Angel",90,71,7.0,140480049,DCEU
+30,Shazam! Fury of the Gods,2023,PG-13,2023-03-17,130,"Action, Adventure, Comedy",David F. Sandberg,"Henry Gayden, Chris Morgan, Bill Parker","Zachary Levi, Asher Angel, Jack Dylan Grazer",49,47,6.0,57638006,DCEU
+31,Spider-Man: Far from Home,2019,PG-13,2019-07-02,129,"Action, Adventure, Comedy",Jon Watts,"Chris McKenna, Erik Sommers, Stan Lee","Tom Holland, Samuel L. Jackson, Jake Gyllenhaal",90,69,7.4,390532085,MCU
+32,Spider-Man: Homecoming,2017,PG-13,2017-07-07,133,"Action, Adventure, Sci-Fi",Jon Watts,"Jonathan Goldstein, John Francis Daley, Jon Watts","Tom Holland, Michael Keaton, Robert Downey Jr.",92,73,7.4,334201140,MCU
+33,Spider-Man: No Way Home,2021,PG-13,2021-12-17,148,"Action, Adventure, Fantasy",Jon Watts,"Chris McKenna, Erik Sommers, Stan Lee","Tom Holland, Zendaya, Benedict Cumberbatch",93,71,8.2,814115070,MCU
+34,Suicide Squad,2016,PG-13,2016-08-05,123,"Action, Adventure, Fantasy",David Ayer,"David Ayer, John Ostrander","Will Smith, Jared Leto, Margot Robbie",26,40,5.9,325100054,DCEU
+35,The Avengers,2012,PG-13,2012-05-04,143,"Action, Sci-Fi",Joss Whedon,"Joss Whedon, Zak Penn","Robert Downey Jr., Chris Evans, Scarlett Johansson",91,69,8.0,623357910,MCU
+36,The Flash,2023,PG-13,2023-06-16,144,"Action, Adventure, Fantasy",Andy Muschietti,"Christina Hodson, John Francis Daley, Jonathan Goldstein","Ezra Miller, Michael Keaton, Sasha Calle",64,56,7.2,102944835,DCEU
+37,The Incredible Hulk,2008,PG-13,2008-06-13,112,"Action, Adventure, Sci-Fi",Louis Leterrier,"Zak Penn, Stan Lee, Jack Kirby","Edward Norton, Liv Tyler, Tim Roth",67,61,6.6,134806913,MCU
+38,The Suicide Squad,2021,R,2021-08-05,132,"Action, Adventure, Comedy",James Gunn,James Gunn,"Margot Robbie, Idris Elba, John Cena",90,72,7.2,55817425,DCEU
+39,Thor,2011,PG-13,2011-05-06,115,"Action, Fantasy",Kenneth Branagh,"Ashley Miller, Zack Stentz, Don Payne","Chris Hemsworth, Anthony Hopkins, Natalie Portman",77,57,7.0,181030624,MCU
+40,Thor: Love and Thunder,2022,PG-13,2022-07-08,118,"Action, Adventure, Comedy",Taika Waititi,"Taika Waititi, Jennifer Kaytin Robinson, Stan Lee","Chris Hemsworth, Natalie Portman, Christian Bale",63,57,6.2,343256830,MCU
+41,Thor: Ragnarok,2017,PG-13,2017-11-03,130,"Action, Adventure, Comedy",Taika Waititi,"Eric Pearson, Craig Kyle, Christopher L. Yost","Chris Hemsworth, Tom Hiddleston, Cate Blanchett",93,74,7.9,315058289,MCU
+42,Thor: The Dark World,2013,PG-13,2013-11-08,112,"Action, Adventure, Fantasy",Alan Taylor,"Christopher L. Yost, Christopher Markus, Stephen McFeely","Chris Hemsworth, Natalie Portman, Tom Hiddleston",66,54,6.8,206362140,MCU
+43,Wonder Woman,2017,PG-13,2017-06-02,141,"Action, Adventure, Fantasy",Patty Jenkins,"Allan Heinberg, Zack Snyder, Jason Fuchs","Gal Gadot, Chris Pine, Robin Wright",93,76,7.4,412845172,DCEU
+44,Wonder Woman 1984,2020,PG-13,2020-12-25,151,"Action, Adventure, Fantasy",Patty Jenkins,"Patty Jenkins, Geoff Johns, Dave Callaham","Gal Gadot, Chris Pine, Kristen Wiig",58,60,5.4,46801036,DCEU
+45,Zack Snyder's Justice League,2021,R,2021-03-18,242,"Action, Adventure, Fantasy",Zack Snyder,"Jerry Siegel, Joe Shuster, Zack Snyder","Henry Cavill, Ben Affleck, Gal Gadot",71,54,8.0,0,DCEU
